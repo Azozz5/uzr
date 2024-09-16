@@ -4,7 +4,9 @@ $("style").last().append(`
     height: 0px !important;
   margin-right: 0px;
 }
-
+#users .uzr.s3ed1 co.ico {
+border-radius: 0px 10px 0px 10px;
+}
 #users .uzr.s3ed1 span.uhash{
     -webkit-text-fill-color: transparent;
 width: 0px !important;
