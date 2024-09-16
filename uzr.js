@@ -202,10 +202,7 @@ background-size: 100%;
 #users .uzr.aiah1 .d-flex.fl {
   padding-right: 0px !important;
 }
-#upro.aiah1 .light.fl.pro.break {
-    background-image: url(https://up6.cc/2024/09/172651956546091.jpg);
-    background-size: 100%;
-}
+
 #users .uzr.aiah1 .u-topic {
   margin-left: 5px;
 }
@@ -215,7 +212,10 @@ margin-top: -6px;
 height: 66px;
 margin-left: -5px;
 }
-
+#upro.aiah1 .light.fl.pro.break {
+    background-image: url(https://up6.cc/2024/09/172651956546091.jpg);
+    background-size: 100%;
+}
 
 `);
 var l_itvaiah=setInterval(function(){
