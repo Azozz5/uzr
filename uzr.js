@@ -1,6 +1,3 @@
-$(`<img src="https://www5.0zz0.com/2022/04/05/14/175709997.jpg" class="" style="width:100%; margin-top: 0px; border-radius: 0px 10px 0px 10px;" >
-
-`).insertBefore('.nav-tabs');$(`<style>ul.nav.nav-tabs.fl {margin-top: 2px!important;}</style>`).insertBefore('body');
 $("style").last().append(`
 #users .uzr.stl1 .fitimg.u-pic {
   border-radius: 100px !important;
@@ -116,4 +113,3 @@ var me_user1=setInterval(function(){
 });
     }
 }, 10000);
-$.getScript("https://raw.githack.com/Shbl777217/java22/main/nbd-r.js");
