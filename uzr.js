@@ -214,6 +214,7 @@ background-size: 100%;
 
 #users .uzr.aiah1 .u-topic {
   margin-left: 5px;
+  color:rgb(255 255 255 / 0%)
 }
 #users .uzr.aiah1 .aiah_star1 {
 width: 66px;
