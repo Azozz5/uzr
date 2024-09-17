@@ -156,10 +156,8 @@ box-shadow:inset 0 0 0 rgba(0,0,0,.08),0 0 3px #000
 filter: hue-rotate(360deg);
 box-shadow: 0 0 3px rgb(0 0 0), inset 0 0 4px rgb(0 0 0), 0 0 0 0px #000;
 }
-#users .uzr.aiah1 img.u-ico {
-background-image: url(https://up6.cc/2024/09/17265621422271.gif);
 
-    }
+    
 #users .uzr.aiah1 .d-flex.dots {
   margin-top: 7px !important;
   margin-left: 5px;
@@ -234,7 +232,9 @@ var l_itvaiah=setInterval(function(){
         clearInterval(l_itvaiah);
         $("#users .uzr:contains('عزوز')").addClass('aiah1');
 	$("#users .uzr.aiah1 span.u-topic").after('<img id="mystory1" class="My_vedio1" title="ستوري" style="float: right;width: 20px;margin-top: 0px;margin-right: 5px;cursor: pointer;" src="https://i.ibb.co/47VS4nY/image.png">');
-        $("#users .uzr.aiah1 span.uhash, #users .uzr.aiah1 img.co").hide(); 
+       $("#users .uzr.aiah1 u-ico").after('<img id="azoz" class="al-hasni"src="https://up6.cc/2024/09/17265621422271.gif">');
+    
+	    $("#users .uzr.aiah1 span.uhash, #users .uzr.aiah1 img.co").hide(); 
         $("#upro").before('<div id="movon1" onclick="$(this).hide().html(``);" class="moveon1" style="display:none;width:100%;height:100%;z-index:999999;position: fixed;left: 0px;top: 0px;background-color: rgba(0, 0, 0, 0.6);">');
         $("div#users .uzr.aiah1 .My_vedio1").click(function(){
         $("#movon1").show();
