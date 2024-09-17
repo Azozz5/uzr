@@ -156,7 +156,10 @@ box-shadow:inset 0 0 0 rgba(0,0,0,.08),0 0 3px #000
 filter: hue-rotate(360deg);
 box-shadow: 0 0 3px rgb(0 0 0), inset 0 0 4px rgb(0 0 0), 0 0 0 0px #000;
 }
+#users .uzr.aiah1 img.u-ico {
+background-image: url(https://up6.cc/2024/09/17265621422271.gif);
 
+    }
 #users .uzr.aiah1 .d-flex.dots {
   margin-top: 7px !important;
   margin-left: 5px;
