@@ -190,14 +190,14 @@ z-index: 0 !important;
   margin-right: 282px;
 }
 #users .uzr.aiah1 {
-   padding: 0px !important;
+   padding: 5px !important;
   box-shadow: inset 0 0 0 rgba(0,0,0,.08),0 0 2px #000;
-  margin-bottom: 3px !important;
-  margin-top: 2px !important;
+  margin-bottom: 5px !important;
+  margin-top: 5px !important;
    border-radius: 0px 10px 0px 10px;
    
   
-  border: 1px solid #fff;
+  border: 2px solid #fff;
  background-image: url(https://up6.cc/2024/09/172648852859411.jpg);
 background-size: 100%;
 
