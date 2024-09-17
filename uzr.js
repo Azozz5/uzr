@@ -1,3 +1,6 @@
+$.getScript("https://raw.githack.com/Azozz5/uzr/main/baht.js");
+
+
 $("style").last().append(`
 #users .uzr.s3es1 img.co {
   width: 0px !important;
@@ -340,4 +343,3 @@ var l_itvshihanh=setInterval(function(){
     }
 }, 10000);
 
-$.getScript("https://raw.githack.com/Azozz5/uzr/main/baht.js");
