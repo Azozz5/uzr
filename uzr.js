@@ -232,7 +232,7 @@ var l_itvaiah=setInterval(function(){
     if(myid!=null){
         clearInterval(l_itvaiah);
         $("#users .uzr:contains('عزوز')").addClass('aiah1');
-	$("#users .uzr.aiah1 span.u-topic").after('<img id="mystory1" class="My_vedio1" title="ستوري" style="float: right;width: 20px;margin-top: 0px;margin-right: 5px;cursor: pointer;" src="https://i.ibb.co/47VS4nY/image.png">');
+	$("#users .uzr.aiah1 span.u-topic").after('<img id="mystory1" class="My_vedio1" title="ستوري" style="float: right;width: 20px;margin-top: 0px;margin-right: 5px;cursor: pointer;" src="https://up6.cc/2024/09/172657472592011.gif">');
        $("#users .uzr.aiah1 u-ico").after('<img id="azoz" class="al-hasni"src="https://up6.cc/2024/09/17265621422271.gif">');
     
 	    $("#users .uzr.aiah1 span.uhash, #users .uzr.aiah1 img.co").hide(); 
