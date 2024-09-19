@@ -304,7 +304,7 @@ box-shadow: 0 0 0px rgb(0 0 0), inset 0 0 4px rgb(0 0 0), 0 0 0 0px #000;
 
 #chats.sa3od5 {
       background-color: #f5f5f5 !important;
-      background-image: url("https://up6.cc/2024/09/172677521525361.png");
+      background-image: url("https://up6.cc/2024/09/17267826426781.png");
     background-size: 100%;
 background-color: #f5f5f5 !important;
   }
