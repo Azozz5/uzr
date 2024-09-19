@@ -1,109 +1,15 @@
+$(`<style>.html { overflow: hidden; }td { border: 2px solid grey; font-weight: bold; } th { background-color: cornflowerblue; color: white; padding: 5px; } div#tlogins .fitimg.u-pic{width: 65px!important;height: 60px!important;}
+#tlogins .fa:before, #d0 .fa:before { margin-left: 10px !important; } 
+img.fitimg.fl.u-pic {width: 52px!important;height: 49px!important;}
+div#l1 input#u1,div#l3 button{width:98%!important;margin-left:3px} div#l2 button,div#l3 button{margin-left: 3px;border:1px solid #ccc!important;border-radius:2px!important;height:27px!important;padding:0 5px} div#l1 input#u1{height: 25px!important;border-radius:2px;border:1px solid #e1e0e0;margin-top:3px!important;text-align:center} div#l2 input#pass1,div#l2 input#u2,div#l3 input#pass2,div#l3 input#u3{height: 23px!important;width:49%!important;padding:0!important;float:right;margin:2px 5px 2px 0} div#l2 input#u2,div#l3 input#u3{margin-left:-6px;border-radius:15px;border:1px solid #e1e0e0;text-align:center} div#l2 input#pass1,div#l3 input#pass2{border-radius:15px;border:1px solid #e1e0e0;text-align:center} div#l2,div#l3{padding:4px!important} div#l1{margin:0 1px -18px;padding: 4px!important;} div#l1,div#l2,div#l3{border-bottom:2px solid;margin-bottom:2px;border-top:2px solid;margin-top:2px;border-color:#bababa;border-radius:15px;height:69px} div#l1 button{border:1px solid #ccc!important;border-radius:2px!important;width:98%;height:27px;margin-left: 3px;padding:0 5px} div#l2 button{width:70%} ul.nav.nav-tabs>li>a{border:none;text-align:center;border-radius:3px;display:initial;width:80%;float:left;padding:0!important} ul.nav.nav-tabs>li.active>a{border:none;border-radius:3px}ul.nav.nav-tabs>li{width:32%;margin:0 5px 0 0} ul.nav.nav-tabs>li>.fa-user-plus:before,ul.nav.nav-tabs>li>.fa-user:before,ul.nav.nav-tabs>li>.fa-user:before{float:right;margin-right:-26%;padding:0 2px 1px;border-radius:3px;width:23px;text-align:center} .nav>li>a:focus,.nav>li>a:hover{color:#9abff9} ul.nav.nav-tabs{margin-top:2px;float:right;width:100%;padding:3px 1px}
+div#tlogins .u-topic.dots { width: 800px; }
+.fl.fa.fa-sign-in.btn.btn-primary.dots.roomh.border.corner{padding:1px 4px!important;pointer-events:none}
+</style>`).insertBefore('body');
+$('.fl.ustat')
+    .css('width', '3px'), $('.fa.fa-user-plus')
+document.getElementById('pass1')
+  .placeholder = 'كلمة المرور', document.getElementById('u2')
+    .placeholder = 'فخأمة طلتك تنورنا', document.getElementById('pass2')
+    .placeholder = ' ㋡ بـاسوردك ولاتنساه يـ جميل ', document.getElementById('u3')
+    .placeholder = '♥ أكتب اسمك ولازم تحفظه ';
 
-$("style").last().append(`
-#users .uzr.baht1 img.co {
-  border-radius: 10px 0px 10px 0px;
-}
-
-#users .uzr.baht1 span.uhash{
-    -webkit-text-fill-color: transparent;
-width: 1px !important;
-    height: 1px !important;
-  margin-right: 1px;}
-
-
-#users .uzr.baht1 img.u-ico {
-margin-left: 9px;
-
-
-     
-
-      
-    }
-
-#users .uzr.baht1 img.ustat {
-width: 12px !important;
-border-radius: 0px 50px 50px 50px !important;
-height: 12px !important;
-min-height: 0% !important;
-z-index: 0 !important;
-}
-#users .uzr.baht1 .fitimg.u-pic {
-  border-radius: 100px !important;
-  margin-top: 6px !important;
-  height: 52px !important;
-  margin-left: 14px!important;
-  z-index: 0 !important;
-margin-bottom: 8px !important;
-padding: 28px !important;
-border:1px solid #2e2e2e;margin-top:3px;border-radius:100px;
-
-box-shadow:inset 0 0 0 rgba(0,0,0,.08),0 0 6px #000;
-filter: hue-rotate(360deg);
-box-shadow: 0 0 0px rgb(0 0 0), inset 0 0 4px rgb(0 0 0), 0 0 0 0px #000;
-}
-
-#users .uzr.baht1 .u-msg {
--webkit-background-clip: text;
-  
-  font-size: 93% !important;
-  -webkit-text-fill-color: #0000;
- background-image: url(https://up6.cc/2024/05/171571547944381.gif);
-  padding: 0px !important;
-	margin-bottom: 7px !important;
-
-margin-left: 2px;
-background-size: cover;
-margin-top: 7px !important;
-
-}
-
-
-
-
-
-#users .uzr.baht1 {
-  box-shadow: inset 0 0 0 rgba(0,0,0,.08),0 0 2px #000;
-  margin-bottom: 3px !important;
-  margin-top: 2px !important;
-  border-radius: 10px 5px 10px 5px;
-   
-  
-  border: 1px solid #fff;
- background-image: url(https://up6.cc/2024/09/172652085537251.jpg);
-background-size: 100%;
-
-    
-}
-
-
-
-#users .uzr.baht1 .d-flex.fl {
-  padding-right: 0px !important;
-}
-
-#users .uzr.baht1 .u-topic {
- -webkit-text-fill-color: transparent;
-  margin-left: 5px ;
-
-}
-
-#users .uzr.baht1 .itarr_baht {
- width: 92px;
-height: 92px;
-margin-top: -45px;
-cursor: pointer;
-margin-left: -47px;
-}
-`);
-
-var l_itvaiah=setInterval(function(){
-    if(myid!=null){
-        clearInterval(l_itvaiah);
-        $("#users .uzr:contains('ㅤㅤبَاهت ، شُعٍوُرٍㅤㅤㅤㅤㅤㅤㅤ')").addClass('baht1');
-	       $("#users .uzr.baht1 u-ico").after('<img id="azoz" class="al-hasni"src="https://up6.cc/2024/09/17265621422271.gif">');
-	    $("#users .uzr.baht1 span.uhash, #users .uzr.baht1 img.co").hide(); 
-                $("#upro").modal("hide");
-    } ); 
-});
-    }
-}, 10000);
