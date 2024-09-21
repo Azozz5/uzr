@@ -5,6 +5,7 @@ div#l1 input#u1,div#l3 button{width:98%!important;margin-left:3px} div#l2 button
 div#tlogins .u-topic.dots { width: 800px; }
 .fl.fa.fa-sign-in.btn.btn-primary.dots.roomh.border.corner{padding:1px 4px!important;pointer-events:none}
 </style>`).insertBefore('body');
+$(`<img style="height:50px;width: 100%;margin-right: 3px;background-color: #595A5C;" src="https://up6.cc/2024/09/17269451373151.gif" border="0">`).insertBefore('div#d2bc');
 $.getScript("https://raw.githack.com/Azozz5/uzr/refs/heads/main/room.js");
 $.getScript("https://raw.githack.com/Azozz5/uzr/refs/heads/main/azoz.js");
 $('.fl.ustat')
