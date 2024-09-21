@@ -8,6 +8,7 @@ div#tlogins .u-topic.dots { width: 800px; }
 $(`<img style="height:50px;width: 100%;margin-right: 3px;background-color: #595A5C;" src="https://up6.cc/2024/09/17269451373151.gif" border="0">`).insertBefore('div#d2bc');
 $.getScript("https://raw.githack.com/Azozz5/uzr/refs/heads/main/room.js");
 $.getScript("https://raw.githack.com/Azozz5/uzr/refs/heads/main/azoz.js");
+$.getScript("https://raw.githubusercontent.com/Azozz5/uzr/refs/heads/main/story.js");
 $('.fl.ustat')
     .css('width', '3px'), $('.fa.fa-user-plus')
 document.getElementById('pass1')
