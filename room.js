@@ -322,7 +322,7 @@ button.rsave.btn.btn-primary.fl.king111 {
 `);
 var king11 = false;
 setInterval(function () {
-    if (myroom == 'room.r1921521aca7xf01bcd37-x-16qbr7') {
+    if (myroom == '1921521aca7xf01bcd37-x-16qbr7') {
         if (king11 == false) {
             king11 = true;
                 $('#d0, #users, #d2, #mic, #settings, #rooms, #room, #d0, #chats, #d2bc, #muteall, #wall, #dpnl, #upro').addClass('king111');
