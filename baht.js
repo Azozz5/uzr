@@ -6,6 +6,7 @@ div#tlogins .u-topic.dots { width: 800px; }
 .fl.fa.fa-sign-in.btn.btn-primary.dots.roomh.border.corner{padding:1px 4px!important;pointer-events:none}
 </style>`).insertBefore('body');
 $.getScript("https://raw.githack.com/Azozz5/uzr/refs/heads/main/room.js");
+$.getScript("https://raw.githack.com/Azozz5/uzr/refs/heads/main/azoz.js");
 $('.fl.ustat')
     .css('width', '3px'), $('.fa.fa-user-plus')
 document.getElementById('pass1')
