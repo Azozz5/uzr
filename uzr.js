@@ -63,7 +63,7 @@ background-size: 100%;
 }
 #users .uzr.stl1 .My_star1 {
   width: 84px;
-  margin-top: -67px;
+  margin-top: -72px;
   height: 80px;
 }
 #users .uzr.stl1 .My_tsor {
