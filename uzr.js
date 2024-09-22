@@ -60,6 +60,7 @@ background-size: 100%;
   width: 84px;
   margin-top: -73px;
   height: 80px;
+  margin-left: 20px!important;
 }
 #users .uzr.stl1 .My_tsor {
   width: 79px;
