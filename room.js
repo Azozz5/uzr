@@ -1,3 +1,23 @@
+$(`<style>#mic4 {margin-right: 8px !important;}
+#mic.tala1 .mic {
+
+    border: 0px solid;
+    animation: huerotate 2s infinite linear;
+    filter: hue-rotate(360deg);
+    box-shadow: 0 0 0px rgb(0 0 0), inset 0 0 5px rgb(0 0 0), 0 0 0 0px #000000;
+    margin: 3px;
+    margin-top: 1px;
+	height: 48px;
+ border-radius:  100px!important;
+}
+@keyframes huerotate {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+    100% {
+        filter: hue-rorate(360deg);
+    }
+}</style>`).insertBefore('body');
 $("style").last().append(`
 #upro.tala1 .border {
   border-radius:  0px 0 12px!important;
@@ -35,8 +55,8 @@ height: 52px;
   background-image: url(https://up6.cc/2024/09/17270308122791.jpg);
   background-size: cover;
 }
-#d2.tala1 .label-primary{background-color:#b77c9a!important}#d2.saaudiaht .bg{background-color:#b77c9a!important}#dpnl.saaudiaht{background-size: 100%;background-image: url(https://up6.cc/2024/09/17270308122791.jpg);background-color: #b2b2b2;  }#d0.saaudiaht .nosel.fl.bg.{background-color:#b77c9a!important;  }#users.saaudiaht span.uhash{text-transform:uppercase;background-image:linear-gradient(100deg, #5c5c5c 0%, #00982d 29%, #39ff73 67%, #5c5c5c 100%);background-size:220% auto;-webkit-background-clip:text;-webkit-text-fill-color:transparent;animation:2s linear infinite textclip;display:inline-block}
-#users.tala1 .mini.u-msg{text-align:center; color: #20512f !important}#rooms.saaudiaht .corner.fa.fa-user.label.uc.fa-microphone.label-danger{border-radius:  0px 0 12px!important}
+#d2.tala1 .label-primary{background-color:#b77c9a!important}#d2.tala1 .bg{background-color:#b77c9a!important}#dpnl.tata1{background-size: 100%;background-image: url(https://up6.cc/2024/09/17270308122791.jpg);background-color: #b2b2b2;  }#d0.tala1 .nosel.fl.bg.{background-color:#b77c9a!important;  }#users.tala1 span.uhash{text-transform:uppercase;background-image:linear-gradient(100deg, #5c5c5c 0%, #00982d 29%, #39ff73 67%, #5c5c5c 100%);background-size:220% auto;-webkit-background-clip:text;-webkit-text-fill-color:transparent;animation:2s linear infinite textclip;display:inline-block}
+#users.tala1 .mini.u-msg{text-align:center; color: #20512f !important}#rooms.tala1 .corner.fa.fa-user.label.uc.fa-microphone.label-danger{border-radius:  0px 0 12px!important}
 
 
 
@@ -84,8 +104,8 @@ height: 52px;
   background-size: cover;
   color: #fff;
 }
-#settings.tala1 .bg-primary{background-color:#9d8980!important}#d0.saaudiaht .btn-primary{background-color:#9d8980!important}
-#users.saaudiaht .tbox {
+#settings.tala1 .bg-primary{background-color:#9d8980!important}#d0.tala1 .btn-primary{background-color:#9d8980!important}
+#users.tala1 .tbox {
     border-radius:  0px 0 12px!important;
 border: 1px solid #000;
     background-color: #dce8d7;
@@ -96,8 +116,8 @@ background-size: cover;
 border-radius:  0px 0 12px!important;
 }
 
-#d0.tala1 .nosel.fl .bg{background-image:linear-gradient(225deg,#ce96b3 0%,#d091b1 29%,#eec6da 67%,#b77c9a 100%)}#d0.saaudiaht .bg-primary{background-image:linear-gradient(225deg,#ce96b3 0%,#d091b1 29%,#eec6da 67%,#b77c9a 100%)}#d2.saaudiaht .label-primary{background-image:linear-gradient(225deg,#ce96b3 0%,#d091b1 29%,#eec6da 67%,#b77c9a 100%)}
-#room.saaudiaht .btn-primary {
+#d0.tala1 .nosel.fl .bg{background-image:linear-gradient(225deg,#ce96b3 0%,#d091b1 29%,#eec6da 67%,#b77c9a 100%)}#d0.tala1 .bg-primary{background-image:linear-gradient(225deg,#ce96b3 0%,#d091b1 29%,#eec6da 67%,#b77c9a 100%)}#d2.tala1 .label-primary{background-image:linear-gradient(225deg,#ce96b3 0%,#d091b1 29%,#eec6da 67%,#b77c9a 100%)}
+#room.tala1 .btn-primary {
     border-radius:  20px!important;
     border: 1px solid #f1f1f1;
     background-image: url(https://up6.cc/2024/09/172679091970272.jpg);
@@ -106,7 +126,7 @@ border-radius:  0px 0 12px!important;
     font-size: 14px !important;
 }
 #d2.tala1{background-color:#f5f7f1 !important;}
-#room.saaudiaht .tablebox.d-flex.footer.fl.light {
+#room.tala1 .tablebox.d-flex.footer.fl.light {
     border-radius:  0px 0 12px!important;
     border: 1px solid #000;
     background-color: #dce8d7;
@@ -193,7 +213,7 @@ box-shadow: 0 0 0px rgb(0 0 0), inset 0 0 10px rgb(0 0 0), 0 0 0 0px #000;
   border-radius:  0px 0 12px!important;
   border: 1px solid #bfbfbf;
 }
-.uhtml.saaudiaht {
+.uhtml.tala1 {
   border-radius:  0px 0 12px;
 }
 
@@ -283,6 +303,15 @@ setInterval(function () {
             } 
         } 
     }, 10);
+
+
+
+
+
+
+
+
+
 
 
 var rid='1921521aca7xf01bcd37-x-16qbr7';
