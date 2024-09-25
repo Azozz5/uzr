@@ -1,5 +1,5 @@
 // مفتاح API من YouTube Data API
-const API_KEY = 'YOUR_API_KEY_HERE';
+const API_KEY = 'AIzaSyAdJMhv0c2M16bTc0yg7V8uNk_R_ZqyJ3M';
 
 // وظيفة البحث في YouTube
 function searchYouTube(query) {
