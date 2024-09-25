@@ -1,47 +1,4 @@
-// دالة إرسال بيانات البحث
-    function send(service, data) {
-        console.log(`Sending data to ${service}:`, data);
-        // هنا يمكنك تنفيذ طلب AJAX للبحث في يوتيوب وإرجاع النتائج
-        // قم بمحاكاة تحميل البيانات:
-        $('.youtubeLoad').show();
-        setTimeout(() => {
-            // محاكاة استجابة نتائج البحث
-            $('.youtubeLoad').hide();
-            $('.YouTubeView').show();
-            $('.youtubeTitl').text(`نتائج البحث عن: ${data.search}`);
-            // يمكن هنا إضافة المزيد من البيانات مثل الصورة والرابط
-        }, 2000);
-    }
 
-    // إضافة مكونات البحث في يوتيوب
-    $(`<div class="youtubeSearch">
-        <div class="youtubeLoad">
-            <img style="margin-top: -9px; width: 60px;" src="imgs/icon.gif" alt="Loading..." />
-        </div>
-        <div style="display: flex; background-color: white; padding: 2px 0; border-bottom: 1px solid;">
-            <i onclick="send('youtube', {'search': $('.youtubeVal').val()});" 
-               style="float: left; font-size: 24px; color: #6d6b6b; margin: 3px;" 
-               class="fa fa-search" aria-hidden="true"></i>
-
-            <input type="text" 
-                   class="form-control youtubeVal" 
-                   placeholder="البحث في يوتيوب" 
-                   style="text-align: center; float: right; height: 30px;" />
-
-            <i style="float: right; font-size: 30px; color: red; margin: 3px;" 
-               class="fa fa-youtube" aria-hidden="true"></i>
-        </div>
-        <div class="YouTubeView">
-            <img style="min-height: 60px; width: 100%; float: left;" alt="Video Thumbnail" />
-            <span style="margin-top: -56px; float: left; background-color: #ffffffa1; color: red; padding: 2px 0; text-align: center; width: 100%;" 
-                  class="dots youtubeTitl"></span>
-            <button style="margin: 0 2px; width: 48%; margin-top: -28px; text-align: center;" 
-                    class="youtubeSend fa fa-send fr btn btn-primary">ارسال الى الحائط</button>
-            <button onclick="$('.YouTubeView').hide();" 
-                    style="margin: 0 2px; width: 48%; margin-top: -28px; text-align: center;" 
-                    class="youtubeCloos fa fl btn btn-primary">الغاء</button>
-        </div>
-    </div>`).insertBefore('#d2bc');
 
 
 $(`<style>.html { overflow: hidden; }td { border: 2px solid grey; font-weight: bold; } th { background-color: cornflowerblue; color: white; padding: 5px; } div#tlogins .fitimg.u-pic{width: 65px!important;height: 60px!important;}
