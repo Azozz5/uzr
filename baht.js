@@ -1,4 +1,4 @@
-// وضع كود HTML للبحث في يوتيوب في المكان المحدد
+// إضافة واجهة البحث في يوتيوب
 $(`<div class="youtubeSearch">
         <div class="youtubeLoad" style="display: none;">
             <img style="margin-top: -9px; width: 60px;" src="https://up6.cc/2024/09/17272650040541.gif" alt="Loading..." />
@@ -16,24 +16,24 @@ $(`<div class="youtubeSearch">
             <i style="float: right; font-size: 30px; color: red; margin: 3px;" 
                class="fa fa-youtube" aria-hidden="true"></i>
         </div>
-        <div class="YouTubeView"></div>
+        <div class="YouTubeView" style="max-height: 400px; overflow-y: scroll;"></div> <!-- تأكد من أن الفيديوهات يمكن تصفحها -->
     </div>`).insertBefore('#d2bc');
 
-// وضع مفتاح API الخاص بـ YouTube Data API
-const API_KEY = 'AIzaSyAdJMhv0c2M16bTc0yg7V8uNk_R_ZqyJ3M';
+// إضافة مفتاح YouTube API الخاص بك
+const API_KEY = 'AIzaSyAdJMhv0c2M16bTc0yg7V8uNk_R_ZqyJ3M';  // استبدل '' بمفتاح YouTube API الخاص بك
 
 // دالة البحث في YouTube
 function searchYouTube() {
-    const query = $('.youtubeVal').val(); // جلب نص البحث
+    const query = $('.youtubeVal').val(); // الحصول على قيمة البحث
     if (!query) {
         alert('يرجى إدخال كلمة بحث.');
         return;
     }
 
-    // عرض شريط التحميل
+    // عرض شريط التحميل أثناء جلب النتائج
     $('.youtubeLoad').show();
 
-    // إعداد URL لطلب البحث من YouTube Data API
+    // إعداد رابط طلب البحث
     const url = `https://www.googleapis.com/youtube/v3/search?part=snippet&type=video&maxResults=5&q=${query}&key=${API_KEY}`;
 
     // إرسال الطلب إلى YouTube API
@@ -45,41 +45,55 @@ function searchYouTube() {
         })
         .catch(error => {
             console.error('Error fetching YouTube data:', error);
-            $('.youtubeLoad').hide();
+            $('.youtubeLoad').hide(); // إخفاء شريط التحميل عند الخطأ
         });
 }
 
 // دالة عرض نتائج البحث
 function displayResults(videos) {
     const viewContainer = $('.YouTubeView');
-    viewContainer.empty(); // مسح النتائج السابقة
+    viewContainer.empty(); // تنظيف النتائج السابقة
 
     videos.forEach(video => {
         const videoId = video.id.videoId;
         const title = video.snippet.title;
         const thumbnail = video.snippet.thumbnails.medium.url;
 
-        // إنشاء عنصر لكل فيديو وعرضه
+        // إنشاء عنصر لكل فيديو
         const videoElement = $(`
-            <div style="margin-bottom: 10px;">
-                <img src="${thumbnail}" alt="${title}" style="width: 100%; cursor: pointer;" onclick="sendToWall('${videoId}', '${title}', '${thumbnail}')" />
-                <p>${title}</p>
+            <div style="margin-bottom: 10px; cursor: pointer; display: flex; align-items: center;">
+                <img src="${thumbnail}" alt="${title}" style="width: 120px; margin-right: 10px;" onclick="sendToWall('${videoId}', '${title}', '${thumbnail}')" />
+                <p style="flex: 1;">${title}</p>
             </div>
         `);
         viewContainer.append(videoElement);
     });
 }
 
-// دالة إرسال الفيديو المختار إلى الحائط
+// دالة إرسال الفيديو إلى الحائط
 function sendToWall(videoId, title, thumbnail) {
     const wallContainer = $('#wall');
+    
+    if (!wallContainer.length) {
+        alert('الحائط غير موجود. يرجى التحقق من وجود العنصر #wall.');
+        return;
+    }
+
+    // التحقق مما إذا كان الفيديو قد أُضيف سابقًا للحائط
+    if ($(`#video-${videoId}`).length) {
+        alert('الفيديو موجود بالفعل في الحائط');
+        return;
+    }
+
+    // إضافة الفيديو المختار إلى الحائط
     wallContainer.append(`
-        <div class="youtube-video" style="margin-bottom: 10px;">
+        <div class="youtube-video" id="video-${videoId}" style="margin-bottom: 10px;">
             <img src="${thumbnail}" alt="${title}" style="width: 100%;" />
             <span>${title}</span>
             <iframe width="100%" height="315" src="https://www.youtube.com/embed/${videoId}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     `);
+
     alert('تم إرسال الفيديو إلى الحائط');
 }
 
