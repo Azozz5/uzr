@@ -97,9 +97,16 @@ background-size: 100%;
   padding-right: 0px !important;
 }
 
-#users .uzr.norseen1 .u-topic {
-   
 
+#users .uzr.norseen1 .u-topic {
+color:#FFD5F4 !important;
+   border-radius: 100px;
+padding: 26px !important;
+border:2px solid #F1D4EB;margin-top:1px;
+
+box-shadow:inset 0 0 0 rgba(0,0,0,.08),0 0 3px #FFD5F4
+filter: hue-rotate(360deg);
+box-shadow: 0 0 3px rgb(0 0 0), inset 0 0 4px rgb(0 0 0), 0 0 0 0px #FFD5F4;
 }
 
 
