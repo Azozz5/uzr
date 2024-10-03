@@ -39,16 +39,25 @@ box-shadow: 0 0 3px rgb(0, 0, 0), inset 0 0 4px rgb(0, 0, 0), 0 0 0 0px #000;
 
 #users .uzr.norseen1 .fitimg.u-pic {
 border: 1px solid #fff ;
-border-radius: 8px 0px  8px 8px ;
-box-shadow: 0 0 4px rgb(0, 0, 0), inset 0 0 4px rgb(0, 0, 0), 0 0 0 0px #000;
-margin-top: 2px;
-margin-right: 2px;
-border-radius: 0px 4px 0px 4px ;
-margin-left: 10px;
+z-index: 0 !important;
+
 height: 52px !important;
+
+ 
 margin-bottom: 4px !important;
+margin-top: 3px !important;
+border-radius: 100px;
+margin-left: -10px;
+
 padding: 26px !important;
+border:2px solid #F1D4EB;margin-top:1px;
+
+box-shadow:inset 0 0 0 rgba(0,0,0,.08),0 0 3px #FFD5F4
+filter: hue-rotate(360deg);
+box-shadow: 0 0 3px rgb(0 0 0), inset 0 0 4px rgb(0 0 0), 0 0 0 0px #FFD5F4;
 }
+
+
 
 #users .uzr.norseen1 .u-msg {
 
